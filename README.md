@@ -16,7 +16,7 @@ PyBAPageTest
 └───src                       
    │
    └───driver
-   |    └───chrome                        ==> Support chrome for now
+   |    └───chrome                        ==> support chrome for now
    |           chromedriver.exe
    |
    └───features                           ==> BDD testing files      
