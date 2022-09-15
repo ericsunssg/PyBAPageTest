@@ -31,7 +31,7 @@ PyBAPageTest
 2. When using `Download ZIP`, please unzip the file, e.g to `C:\Temp1` or any path (this article will use C:\Temp1 as an example) 
 3. Set up Python virtural enviroment - Windows Cmd: `python -m venv C:\Temp1\PyBAPageTest-main\venv`
 4. Activate the Python virtural environment -  Windows Cmd: `C:\Temp1\PyBAPageTest-main\venv\Scripts>activate`
-5. Install the dependencies - `(venv) C:\Temp1\PyBAPageTest-main>pip install -r requirements.txt`
+5. Install the dependencies under Python virtual environment - `(venv) C:\Temp1\PyBAPageTest-main>pip install -r requirements.txt`
 6. Run the test: `(venv) C:\Temp1\PyBAPageTest-main>behave ./src/features -f allure_behave.formatter:AllureFormatter -o allure_results`
 7. The summary of test results will be shown and JSON test result files will be generated under `C:\Temp1\PyBAPageTest-main\allure_results`
 8. Using Allure to check test result - Windows Powershell: `allure serve C:\Temp1\PyBAPageTest-main\allure_results`
