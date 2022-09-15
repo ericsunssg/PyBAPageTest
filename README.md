@@ -12,8 +12,7 @@ project
 |
 └───allure_results                        ==> JSON test results for Allure to generate HTML test report.
 |
-└───src                 
-   │   SeleniumExtended.py               
+└───src                       
    │
    └───driver
    |    └───chrome                        ==> Support chrome for now
