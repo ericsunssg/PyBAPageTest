@@ -34,7 +34,7 @@ PyBAPageTest
 5. Install the dependencies under Python virtual environment - `(venv) C:\Temp1\PyBAPageTest-main>pip install -r requirements.txt`
 6. Run the test: `(venv) C:\Temp1\PyBAPageTest-main>behave ./src/features -f allure_behave.formatter:AllureFormatter -o allure_results`
 7. The summary of test results will be shown and JSON test result files will be generated under `C:\Temp1\PyBAPageTest-main\allure_results`
-8. Using Allure to check test result - Windows Powershell: `allure serve C:\Temp1\PyBAPageTest-main\allure_results`
+8. Using Allure to check test results - Windows Powershell: `allure serve C:\Temp1\PyBAPageTest-main\allure_results`
 > Note: the above step 6 generates JSON test results for Allure to generate HTML reports, it can also generate XML(`behave --junit`) and JSON report(`behave -f json`)
 ### How to install Allure in windows
 - Windows PowerShell: `scoop install allure` 
