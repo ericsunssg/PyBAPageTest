@@ -6,7 +6,8 @@
 - Allure - check HTML tes results (Please check below to see how to install Allure in Windows)
 ### Package Structure
 ```
-project
+PyBAPageTest
+|
 │   README.md
 │   requirements.txt                      ==> Python dependencies
 |
