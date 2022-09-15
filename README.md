@@ -26,7 +26,7 @@ PyBAPageTest
    |
    └───util                               ==> utility functions  
 ```
-### How to run tests
+### How to run tests and check test result
 1. Get the package: `Download ZIP` or git cmd: `git clone https://github.com/ericsunssg/PyBAPageTest.git`
 2. When using `Download ZIP`, please unzip the file, e.g to `C:\Temp1` or any path (this article will use C:\Temp1 as an example) 
 3. Set up Python virtural enviroment - Windows Cmd: `python -m venv C:\Temp1\PyBAPageTest-main\venv`
