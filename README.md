@@ -4,7 +4,7 @@
 - Python - 3.7 (https://www.python.org/downloads/windows/, this should download a file similar in name to: python-3.7.9-amd64.exe)
 - pip - latest (Please ensure pip is up to date by executing: `python -m pip install -U pip`)
 - Allure - check HTML tes results (Please check below to see how to install Allure in Windows)
-### Package Structure
+### Package structure
 ```
 PyBAPageTest
 |
